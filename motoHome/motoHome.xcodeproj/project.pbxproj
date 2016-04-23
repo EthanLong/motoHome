@@ -1,0 +1,538 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AACC9FAA1CCB477A0001FF9B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AACC9FA91CCB477A0001FF9B /* main.m */; };
+		AACC9FAD1CCB477A0001FF9B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AACC9FAC1CCB477A0001FF9B /* AppDelegate.m */; };
+		AACC9FB01CCB477A0001FF9B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AACC9FAF1CCB477A0001FF9B /* ViewController.m */; };
+		AACC9FB31CCB477A0001FF9B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AACC9FB11CCB477A0001FF9B /* Main.storyboard */; };
+		AACC9FB61CCB477A0001FF9B /* motoHome.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AACC9FB41CCB477A0001FF9B /* motoHome.xcdatamodeld */; };
+		AACC9FB81CCB477A0001FF9B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AACC9FB71CCB477A0001FF9B /* Assets.xcassets */; };
+		AACC9FBB1CCB477A0001FF9B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AACC9FB91CCB477A0001FF9B /* LaunchScreen.storyboard */; };
+		AACC9FC61CCB477B0001FF9B /* motoHomeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AACC9FC51CCB477B0001FF9B /* motoHomeTests.m */; };
+		AACC9FD11CCB477B0001FF9B /* motoHomeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = AACC9FD01CCB477B0001FF9B /* motoHomeUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AACC9FC21CCB477B0001FF9B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AACC9F9D1CCB477A0001FF9B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AACC9FA41CCB477A0001FF9B;
+			remoteInfo = motoHome;
+		};
+		AACC9FCD1CCB477B0001FF9B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AACC9F9D1CCB477A0001FF9B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AACC9FA41CCB477A0001FF9B;
+			remoteInfo = motoHome;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AACC9FA51CCB477A0001FF9B /* motoHome.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = motoHome.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AACC9FA91CCB477A0001FF9B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AACC9FAB1CCB477A0001FF9B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AACC9FAC1CCB477A0001FF9B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AACC9FAE1CCB477A0001FF9B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		AACC9FAF1CCB477A0001FF9B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		AACC9FB21CCB477A0001FF9B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AACC9FB51CCB477A0001FF9B /* motoHome.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = motoHome.xcdatamodel; sourceTree = "<group>"; };
+		AACC9FB71CCB477A0001FF9B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AACC9FBA1CCB477A0001FF9B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AACC9FBC1CCB477A0001FF9B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AACC9FC11CCB477A0001FF9B /* motoHomeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = motoHomeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AACC9FC51CCB477B0001FF9B /* motoHomeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = motoHomeTests.m; sourceTree = "<group>"; };
+		AACC9FC71CCB477B0001FF9B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AACC9FCC1CCB477B0001FF9B /* motoHomeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = motoHomeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AACC9FD01CCB477B0001FF9B /* motoHomeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = motoHomeUITests.m; sourceTree = "<group>"; };
+		AACC9FD21CCB477B0001FF9B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AACC9FA21CCB477A0001FF9B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AACC9FBE1CCB477A0001FF9B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AACC9FC91CCB477B0001FF9B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AACC9F9C1CCB477A0001FF9B = {
+			isa = PBXGroup;
+			children = (
+				AACC9FA71CCB477A0001FF9B /* motoHome */,
+				AACC9FC41CCB477B0001FF9B /* motoHomeTests */,
+				AACC9FCF1CCB477B0001FF9B /* motoHomeUITests */,
+				AACC9FA61CCB477A0001FF9B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AACC9FA61CCB477A0001FF9B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AACC9FA51CCB477A0001FF9B /* motoHome.app */,
+				AACC9FC11CCB477A0001FF9B /* motoHomeTests.xctest */,
+				AACC9FCC1CCB477B0001FF9B /* motoHomeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AACC9FA71CCB477A0001FF9B /* motoHome */ = {
+			isa = PBXGroup;
+			children = (
+				AACC9FAB1CCB477A0001FF9B /* AppDelegate.h */,
+				AACC9FAC1CCB477A0001FF9B /* AppDelegate.m */,
+				AACC9FAE1CCB477A0001FF9B /* ViewController.h */,
+				AACC9FAF1CCB477A0001FF9B /* ViewController.m */,
+				AACC9FB11CCB477A0001FF9B /* Main.storyboard */,
+				AACC9FB71CCB477A0001FF9B /* Assets.xcassets */,
+				AACC9FB91CCB477A0001FF9B /* LaunchScreen.storyboard */,
+				AACC9FBC1CCB477A0001FF9B /* Info.plist */,
+				AACC9FB41CCB477A0001FF9B /* motoHome.xcdatamodeld */,
+				AACC9FA81CCB477A0001FF9B /* Supporting Files */,
+			);
+			path = motoHome;
+			sourceTree = "<group>";
+		};
+		AACC9FA81CCB477A0001FF9B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AACC9FA91CCB477A0001FF9B /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AACC9FC41CCB477B0001FF9B /* motoHomeTests */ = {
+			isa = PBXGroup;
+			children = (
+				AACC9FC51CCB477B0001FF9B /* motoHomeTests.m */,
+				AACC9FC71CCB477B0001FF9B /* Info.plist */,
+			);
+			path = motoHomeTests;
+			sourceTree = "<group>";
+		};
+		AACC9FCF1CCB477B0001FF9B /* motoHomeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AACC9FD01CCB477B0001FF9B /* motoHomeUITests.m */,
+				AACC9FD21CCB477B0001FF9B /* Info.plist */,
+			);
+			path = motoHomeUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AACC9FA41CCB477A0001FF9B /* motoHome */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AACC9FD51CCB477B0001FF9B /* Build configuration list for PBXNativeTarget "motoHome" */;
+			buildPhases = (
+				AACC9FA11CCB477A0001FF9B /* Sources */,
+				AACC9FA21CCB477A0001FF9B /* Frameworks */,
+				AACC9FA31CCB477A0001FF9B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = motoHome;
+			productName = motoHome;
+			productReference = AACC9FA51CCB477A0001FF9B /* motoHome.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AACC9FC01CCB477A0001FF9B /* motoHomeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AACC9FD81CCB477B0001FF9B /* Build configuration list for PBXNativeTarget "motoHomeTests" */;
+			buildPhases = (
+				AACC9FBD1CCB477A0001FF9B /* Sources */,
+				AACC9FBE1CCB477A0001FF9B /* Frameworks */,
+				AACC9FBF1CCB477A0001FF9B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AACC9FC31CCB477B0001FF9B /* PBXTargetDependency */,
+			);
+			name = motoHomeTests;
+			productName = motoHomeTests;
+			productReference = AACC9FC11CCB477A0001FF9B /* motoHomeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AACC9FCB1CCB477B0001FF9B /* motoHomeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AACC9FDB1CCB477B0001FF9B /* Build configuration list for PBXNativeTarget "motoHomeUITests" */;
+			buildPhases = (
+				AACC9FC81CCB477B0001FF9B /* Sources */,
+				AACC9FC91CCB477B0001FF9B /* Frameworks */,
+				AACC9FCA1CCB477B0001FF9B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AACC9FCE1CCB477B0001FF9B /* PBXTargetDependency */,
+			);
+			name = motoHomeUITests;
+			productName = motoHomeUITests;
+			productReference = AACC9FCC1CCB477B0001FF9B /* motoHomeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AACC9F9D1CCB477A0001FF9B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = bridgetree;
+				TargetAttributes = {
+					AACC9FA41CCB477A0001FF9B = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					AACC9FC01CCB477A0001FF9B = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = AACC9FA41CCB477A0001FF9B;
+					};
+					AACC9FCB1CCB477B0001FF9B = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = AACC9FA41CCB477A0001FF9B;
+					};
+				};
+			};
+			buildConfigurationList = AACC9FA01CCB477A0001FF9B /* Build configuration list for PBXProject "motoHome" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AACC9F9C1CCB477A0001FF9B;
+			productRefGroup = AACC9FA61CCB477A0001FF9B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AACC9FA41CCB477A0001FF9B /* motoHome */,
+				AACC9FC01CCB477A0001FF9B /* motoHomeTests */,
+				AACC9FCB1CCB477B0001FF9B /* motoHomeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AACC9FA31CCB477A0001FF9B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AACC9FBB1CCB477A0001FF9B /* LaunchScreen.storyboard in Resources */,
+				AACC9FB81CCB477A0001FF9B /* Assets.xcassets in Resources */,
+				AACC9FB31CCB477A0001FF9B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AACC9FBF1CCB477A0001FF9B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AACC9FCA1CCB477B0001FF9B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AACC9FA11CCB477A0001FF9B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AACC9FB01CCB477A0001FF9B /* ViewController.m in Sources */,
+				AACC9FB61CCB477A0001FF9B /* motoHome.xcdatamodeld in Sources */,
+				AACC9FAD1CCB477A0001FF9B /* AppDelegate.m in Sources */,
+				AACC9FAA1CCB477A0001FF9B /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AACC9FBD1CCB477A0001FF9B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AACC9FC61CCB477B0001FF9B /* motoHomeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AACC9FC81CCB477B0001FF9B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AACC9FD11CCB477B0001FF9B /* motoHomeUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AACC9FC31CCB477B0001FF9B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AACC9FA41CCB477A0001FF9B /* motoHome */;
+			targetProxy = AACC9FC21CCB477B0001FF9B /* PBXContainerItemProxy */;
+		};
+		AACC9FCE1CCB477B0001FF9B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AACC9FA41CCB477A0001FF9B /* motoHome */;
+			targetProxy = AACC9FCD1CCB477B0001FF9B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AACC9FB11CCB477A0001FF9B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AACC9FB21CCB477A0001FF9B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AACC9FB91CCB477A0001FF9B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AACC9FBA1CCB477A0001FF9B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AACC9FD31CCB477B0001FF9B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AACC9FD41CCB477B0001FF9B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AACC9FD61CCB477B0001FF9B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = motoHome/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bridgetree.motoHome;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		AACC9FD71CCB477B0001FF9B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = motoHome/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bridgetree.motoHome;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		AACC9FD91CCB477B0001FF9B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = motoHomeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bridgetree.motoHomeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/motoHome.app/motoHome";
+			};
+			name = Debug;
+		};
+		AACC9FDA1CCB477B0001FF9B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = motoHomeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bridgetree.motoHomeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/motoHome.app/motoHome";
+			};
+			name = Release;
+		};
+		AACC9FDC1CCB477B0001FF9B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = motoHomeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bridgetree.motoHomeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = motoHome;
+			};
+			name = Debug;
+		};
+		AACC9FDD1CCB477B0001FF9B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = motoHomeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bridgetree.motoHomeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = motoHome;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AACC9FA01CCB477A0001FF9B /* Build configuration list for PBXProject "motoHome" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AACC9FD31CCB477B0001FF9B /* Debug */,
+				AACC9FD41CCB477B0001FF9B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AACC9FD51CCB477B0001FF9B /* Build configuration list for PBXNativeTarget "motoHome" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AACC9FD61CCB477B0001FF9B /* Debug */,
+				AACC9FD71CCB477B0001FF9B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AACC9FD81CCB477B0001FF9B /* Build configuration list for PBXNativeTarget "motoHomeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AACC9FD91CCB477B0001FF9B /* Debug */,
+				AACC9FDA1CCB477B0001FF9B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AACC9FDB1CCB477B0001FF9B /* Build configuration list for PBXNativeTarget "motoHomeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AACC9FDC1CCB477B0001FF9B /* Debug */,
+				AACC9FDD1CCB477B0001FF9B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		AACC9FB41CCB477A0001FF9B /* motoHome.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				AACC9FB51CCB477A0001FF9B /* motoHome.xcdatamodel */,
+			);
+			currentVersion = AACC9FB51CCB477A0001FF9B /* motoHome.xcdatamodel */;
+			path = motoHome.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = AACC9F9D1CCB477A0001FF9B /* Project object */;
+}
