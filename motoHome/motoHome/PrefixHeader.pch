@@ -1,0 +1,38 @@
+//
+//  PrefixHeader.pch
+//  motoHome
+//
+//  Created by QiEthan on 16/4/23.
+//  Copyright © 2016年 bridgetree. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif /* PrefixHeader_pch */
+
+#import <AFNetworking/AFNetworking.h>
+
+#define knetworkException @"网络未连接或未返回任何数据"
+#define kloginRequired @"请登录"
+#define kloginfailed @"\n 登陆失效，需重新登陆"
+#define kpleasewait @"请稍候..."
+#define kgotit @"知道了"
+
+//当前系统版本号
+#define kSystemVersion [[[UIDevice currentDevice] systemVersion] floatValue]
+
+//获取屏幕 宽度、高度
+#define kSCREEN_WIDTH [[UIScreen mainScreen] bounds].size.width
+#define kSCREEN_HEIGHT [[UIScreen mainScreen] bounds].size.height
+
+//主题颜色
+#define kTabBarCOLOR [UIColor colorWithRed:245/255.0 green:245/255.0 blue:245/255.0 alpha:1]
+#define kDarkGrayCOLOR [UIColor colorWithRed:235/255.0 green:235/255.0 blue:235/255.0 alpha:1]
+#define kGrayCOLOR [UIColor colorWithRed:239/255.0 green:239/255.0 blue:239/255.0 alpha:1]
+
+#define kdetailFont [UIFont systemFontOfSize: 15]
+#define kdesFont [UIFont systemFontOfSize: 13]
