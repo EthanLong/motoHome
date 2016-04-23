@@ -16,7 +16,7 @@
 		AACC9FBB1CCB477A0001FF9B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AACC9FB91CCB477A0001FF9B /* LaunchScreen.storyboard */; };
 		AACC9FC61CCB477B0001FF9B /* motoHomeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AACC9FC51CCB477B0001FF9B /* motoHomeTests.m */; };
 		AACC9FD11CCB477B0001FF9B /* motoHomeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = AACC9FD01CCB477B0001FF9B /* motoHomeUITests.m */; };
-		AACC9FE21CCB4ACB0001FF9B /* AFNetworking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AACC9FE11CCB4ACB0001FF9B /* AFNetworking.framework */; };
+		AACC9FE21CCB4ACB0001FF9B /* AFNetworking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AACC9FE11CCB4ACB0001FF9B /* AFNetworking.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		AACC9FE41CCB4D450001FF9B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AACC9FE31CCB4D450001FF9B /* UIKit.framework */; };
 		AACC9FE61CCB4D4D0001FF9B /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AACC9FE51CCB4D4D0001FF9B /* OpenGLES.framework */; };
 		AACC9FE81CCB4D570001FF9B /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AACC9FE71CCB4D570001FF9B /* Security.framework */; };
@@ -264,6 +264,7 @@
 				TargetAttributes = {
 					AACC9FA41CCB477A0001FF9B = {
 						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 4GQCK5Z9L9;
 					};
 					AACC9FC01CCB477A0001FF9B = {
 						CreatedOnToolsVersion = 7.3;
@@ -473,6 +474,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
@@ -480,9 +483,11 @@
 				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = NO;
 				GCC_PREFIX_HEADER = motoHome/PrefixHeader.pch;
 				INFOPLIST_FILE = motoHome/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.bridgetree.motoHome;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -490,6 +495,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
@@ -497,9 +504,11 @@
 				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = NO;
 				GCC_PREFIX_HEADER = motoHome/PrefixHeader.pch;
 				INFOPLIST_FILE = motoHome/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.bridgetree.motoHome;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
