@@ -14,7 +14,7 @@
 
 #endif /* PrefixHeader_pch */
 
-#import <AFNetworking/AFNetworking.h>
+#import "AFNetworking.h"
 
 #define knetworkException @"网络未连接或未返回任何数据"
 #define kloginRequired @"请登录"
