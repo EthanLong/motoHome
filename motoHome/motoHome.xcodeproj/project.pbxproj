@@ -78,6 +78,14 @@
 		AA9462011CCE0A54009C6D56 /* RDVTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = AA9461FC1CCE0A54009C6D56 /* RDVTabBar.m */; };
 		AA9462021CCE0A54009C6D56 /* RDVTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA9461FE1CCE0A54009C6D56 /* RDVTabBarController.m */; };
 		AA9462031CCE0A54009C6D56 /* RDVTabBarItem.m in Sources */ = {isa = PBXBuildFile; fileRef = AA9462001CCE0A54009C6D56 /* RDVTabBarItem.m */; };
+		AA9462131CD0A8CC009C6D56 /* CommonTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA9462111CD0A8CC009C6D56 /* CommonTableViewController.m */; };
+		AA9462141CD0A8CC009C6D56 /* CommonTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AA9462121CD0A8CC009C6D56 /* CommonTableViewController.xib */; };
+		AA9462191CD0BC4D009C6D56 /* AVOSCloud.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA9462161CD0BC4D009C6D56 /* AVOSCloud.framework */; };
+		AA94621A1CD0BC4D009C6D56 /* AVOSCloudCrashReporting.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA9462171CD0BC4D009C6D56 /* AVOSCloudCrashReporting.framework */; };
+		AA94621B1CD0BC4D009C6D56 /* AVOSCloudIM.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA9462181CD0BC4D009C6D56 /* AVOSCloudIM.framework */; };
+		AA94621D1CD0BCA1009C6D56 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA94621C1CD0BCA1009C6D56 /* MobileCoreServices.framework */; };
+		AA94621F1CD0BCAD009C6D56 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA94621E1CD0BCAD009C6D56 /* CoreTelephony.framework */; };
+		AA9462211CD0BCBC009C6D56 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA9462201CD0BCBC009C6D56 /* CoreLocation.framework */; };
 		AACC9FAA1CCB477A0001FF9B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AACC9FA91CCB477A0001FF9B /* main.m */; };
 		AACC9FAD1CCB477A0001FF9B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AACC9FAC1CCB477A0001FF9B /* AppDelegate.m */; };
 		AACC9FB01CCB477A0001FF9B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AACC9FAF1CCB477A0001FF9B /* ViewController.m */; };
@@ -266,6 +274,15 @@
 		AA9461FE1CCE0A54009C6D56 /* RDVTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RDVTabBarController.m; sourceTree = "<group>"; };
 		AA9461FF1CCE0A54009C6D56 /* RDVTabBarItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RDVTabBarItem.h; sourceTree = "<group>"; };
 		AA9462001CCE0A54009C6D56 /* RDVTabBarItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RDVTabBarItem.m; sourceTree = "<group>"; };
+		AA9462101CD0A8CC009C6D56 /* CommonTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonTableViewController.h; sourceTree = "<group>"; };
+		AA9462111CD0A8CC009C6D56 /* CommonTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommonTableViewController.m; sourceTree = "<group>"; };
+		AA9462121CD0A8CC009C6D56 /* CommonTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CommonTableViewController.xib; sourceTree = "<group>"; };
+		AA9462161CD0BC4D009C6D56 /* AVOSCloud.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AVOSCloud.framework; sourceTree = "<group>"; };
+		AA9462171CD0BC4D009C6D56 /* AVOSCloudCrashReporting.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AVOSCloudCrashReporting.framework; sourceTree = "<group>"; };
+		AA9462181CD0BC4D009C6D56 /* AVOSCloudIM.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AVOSCloudIM.framework; sourceTree = "<group>"; };
+		AA94621C1CD0BCA1009C6D56 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		AA94621E1CD0BCAD009C6D56 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		AA9462201CD0BCBC009C6D56 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		AACC9FA51CCB477A0001FF9B /* motoHome.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = motoHome.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AACC9FA91CCB477A0001FF9B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		AACC9FAB1CCB477A0001FF9B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -299,7 +316,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AA9462211CD0BCBC009C6D56 /* CoreLocation.framework in Frameworks */,
+				AA94621F1CD0BCAD009C6D56 /* CoreTelephony.framework in Frameworks */,
+				AA94621D1CD0BCA1009C6D56 /* MobileCoreServices.framework in Frameworks */,
+				AA94621A1CD0BC4D009C6D56 /* AVOSCloudCrashReporting.framework in Frameworks */,
 				AACC9FF21CCB4D9C0001FF9B /* CoreGraphics.framework in Frameworks */,
+				AA94621B1CD0BC4D009C6D56 /* AVOSCloudIM.framework in Frameworks */,
 				AACC9FE81CCB4D570001FF9B /* Security.framework in Frameworks */,
 				AACC9FF01CCB4D8A0001FF9B /* SystemConfiguration.framework in Frameworks */,
 				AACC9FEE1CCB4D840001FF9B /* Foundation.framework in Frameworks */,
@@ -307,6 +329,7 @@
 				AACC9FEA1CCB4D640001FF9B /* AVFoundation.framework in Frameworks */,
 				AACC9FE61CCB4D4D0001FF9B /* OpenGLES.framework in Frameworks */,
 				AACC9FE41CCB4D450001FF9B /* UIKit.framework in Frameworks */,
+				AA9462191CD0BC4D009C6D56 /* AVOSCloud.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -470,6 +493,8 @@
 		AA9461831CCDF63D009C6D56 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				AA94620B1CD0A777009C6D56 /* CustomTable */,
+				AA94620C1CD0A781009C6D56 /* CustomCell */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -634,6 +659,33 @@
 			path = RDVTabBarController;
 			sourceTree = "<group>";
 		};
+		AA94620B1CD0A777009C6D56 /* CustomTable */ = {
+			isa = PBXGroup;
+			children = (
+				AA9462101CD0A8CC009C6D56 /* CommonTableViewController.h */,
+				AA9462111CD0A8CC009C6D56 /* CommonTableViewController.m */,
+				AA9462121CD0A8CC009C6D56 /* CommonTableViewController.xib */,
+			);
+			name = CustomTable;
+			sourceTree = "<group>";
+		};
+		AA94620C1CD0A781009C6D56 /* CustomCell */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = CustomCell;
+			sourceTree = "<group>";
+		};
+		AA9462151CD0BC25009C6D56 /* AVOSCloud */ = {
+			isa = PBXGroup;
+			children = (
+				AA9462161CD0BC4D009C6D56 /* AVOSCloud.framework */,
+				AA9462171CD0BC4D009C6D56 /* AVOSCloudCrashReporting.framework */,
+				AA9462181CD0BC4D009C6D56 /* AVOSCloudIM.framework */,
+			);
+			name = AVOSCloud;
+			sourceTree = "<group>";
+		};
 		AACC9F9C1CCB477A0001FF9B = {
 			isa = PBXGroup;
 			children = (
@@ -720,6 +772,10 @@
 		AACC9FE01CCB4AB00001FF9B /* framework */ = {
 			isa = PBXGroup;
 			children = (
+				AA9462201CD0BCBC009C6D56 /* CoreLocation.framework */,
+				AA94621E1CD0BCAD009C6D56 /* CoreTelephony.framework */,
+				AA94621C1CD0BCA1009C6D56 /* MobileCoreServices.framework */,
+				AA9462151CD0BC25009C6D56 /* AVOSCloud */,
 				AA94612A1CCDB75A009C6D56 /* AFNetworking */,
 				AA94610C1CCDB754009C6D56 /* UIKit+AFNetworking */,
 				AACC9FF11CCB4D9C0001FF9B /* CoreGraphics.framework */,
@@ -840,6 +896,7 @@
 			files = (
 				AACC9FBB1CCB477A0001FF9B /* LaunchScreen.storyboard in Resources */,
 				AACC9FB81CCB477A0001FF9B /* Assets.xcassets in Resources */,
+				AA9462141CD0A8CC009C6D56 /* CommonTableViewController.xib in Resources */,
 				AA9461F91CCE02BA009C6D56 /* IQKeyboardManager.bundle in Resources */,
 				AACC9FB31CCB477A0001FF9B /* Main.storyboard in Resources */,
 			);
@@ -928,6 +985,7 @@
 				AA94613B1CCDB75A009C6D56 /* AFURLRequestSerialization.m in Sources */,
 				AA9461F61CCE02BA009C6D56 /* IQTitleBarButtonItem.m in Sources */,
 				AA94617D1CCDF488009C6D56 /* MJPropertyType.m in Sources */,
+				AA9462131CD0A8CC009C6D56 /* CommonTableViewController.m in Sources */,
 				AA94613A1CCDB75A009C6D56 /* AFSecurityPolicy.m in Sources */,
 				AA9462011CCE0A54009C6D56 /* RDVTabBar.m in Sources */,
 				AA9461B91CCDFED1009C6D56 /* SDWebImagePrefetcher.m in Sources */,
@@ -1093,6 +1151,13 @@
 				INFOPLIST_FILE = motoHome/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"-lz",
+					"-licucore",
+					"-ObjC",
+					"-lc++",
+					"-lsqlite3",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.bridgetree.motoHome;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
@@ -1114,6 +1179,13 @@
 				INFOPLIST_FILE = motoHome/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"-lz",
+					"-licucore",
+					"-ObjC",
+					"-lc++",
+					"-lsqlite3",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.bridgetree.motoHome;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
